@@ -9,6 +9,7 @@ My twitter profile is [@LinkStrifer](https://twitter.com/LinkStrifer "Twitter")
 - [Default task](#defaut-task)
 - [Autoreload-gulp](#autoreload-gulp)
 - [Browser-sync](#browser-sync)
+- [Dev task](#dev)
 
 ### Default task
 
@@ -28,7 +29,7 @@ i.e:
 
 	gulp autoreload-gulp --task dev
 
-## Browser-sync
+### Browser-sync
 
 I'm a frontend developer, so i expend a lot of time testing in the browser, i have to reload the page every time i change a file (html, js or css) to test the new changes, [@LeonidasEsteban](https://twitter.com/leonidasesteban "Leonidas Esteban") show me LiveReload and my life change.
 
@@ -48,6 +49,12 @@ You can run the task with typing this in the console:
 
 And the magic happens. This would open localhost:3002 with the default browser.
 
-### Config
+##### Config
 
 `browser-sync` has some config, here is the basic that is in `gulp/config.js`, you can check the documentation of [`browser-sync`](http://www.browsersync.io/docs/options/) for more information.
+
+### Dev
+
+This is the task that i use when i'm developing a site. Does a lot of work, here is the list of task:
+
+- [Browser-sync](#browser-sync)
