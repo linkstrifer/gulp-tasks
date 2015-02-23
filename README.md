@@ -6,6 +6,10 @@ My twitter profile is [@LinkStrifer](https://twitter.com/LinkStrifer "Twitter")
 
 ## Task list
 
+### Default task
+
+For convienience, the default task run `autoreload-gulp`. For more details check [Autoreload-gulp](#autoreload-gulp) task documentation.
+
 ### Autoreload-gulp
 
 This task will autoreload gulp on every change in the tasks files. It accept one parameter, the task name that you want to run with the flag -t or --task
