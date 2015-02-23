@@ -2,7 +2,7 @@
 
 This is a group of common gulp tasks that i use in my projects. If you have other tasks or know how to improve this, let me know.
 
-[@LinkStrifer](https://twitter.com/LinkStrifer "Twitter") 
+My twitter profile is [@LinkStrifer](https://twitter.com/LinkStrifer "Twitter") 
 
 ## Task list
 
