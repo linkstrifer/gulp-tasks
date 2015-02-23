@@ -4,6 +4,10 @@ This is a group of common gulp tasks that i use in my projects. If you have othe
 
 My twitter profile is [@LinkStrifer](https://twitter.com/LinkStrifer "Twitter") 
 
+## Installation
+
+Just clone and run `npm install`.
+
 ## Task list
 
 - [Default task](#defaut-task)
