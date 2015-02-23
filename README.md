@@ -7,9 +7,10 @@ My twitter profile is [@LinkStrifer](https://twitter.com/LinkStrifer "Twitter")
 ## Task list
 
 - [Default task](#defaut-task)
-- [Autoreload-gulp](#autoreload-gulp)
-- [Browser-sync](#browser-sync)
+- [Autoreload-gulp task](#autoreload-gulp)
+- [Browser-sync task](#browser-sync)
 - [Dev task](#dev)
+- [Sass task](#sass)
 
 ### Default task
 
@@ -74,3 +75,18 @@ You can run this task alone or using autoreload-gulp.
 Here is a list of the running tasks when you run dev:
 
 - [Browser-sync](#browser-sync)
+- [Sass](#sass)
+
+Then, watch some files and run an appropiate task:
+
+- Run `sass` task if the file extension is `.scss` in the folder `paths.base` in `gulp/config.js`.
+
+### Sass
+
+If you use sass, this is for you, it get all the .scss files and compile using sass, then reload the browser with the new .css.
+
+### Config
+
+In the `gulp/config.js` file is the sass config.
+
+The source files are in `paths.sass` in `gulp/config.js` and the destination folder is in `paths.styles` in `gulp/config/js`.

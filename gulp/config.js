@@ -1,4 +1,9 @@
 var config = {
+	paths: {
+		base: './site/',
+		sass: './site/static/sass/',
+		styles: './site/static/css/'
+	},
 	server: {
 		dev: {
             server: {
@@ -16,7 +21,11 @@ var config = {
             logLevel: 'info', // Three options, debug, info or silent
             logFileChanges: true, // Log if a file change
         }
-	}
+	},
+	sass: {
+		// Array with all the folders with sass dependencies, like node_modules or bower
+        includePaths: []
+    }
 };
 
 module.exports = config;
