@@ -11,6 +11,7 @@ My twitter profile is [@LinkStrifer](https://twitter.com/LinkStrifer "Twitter")
 - [Browser-sync task](#browser-sync)
 - [Dev task](#dev)
 - [Sass task](#sass)
+- [HTML task](#html)
 
 ### Default task
 
@@ -77,9 +78,11 @@ Here is a list of the running tasks when you run dev:
 - [Browser-sync](#browser-sync)
 - [Sass](#sass)
 
+
 Then, watch some files and run an appropiate task:
 
-- Run `sass` task if the file extension is `.scss` in the folder `paths.base` in `gulp/config.js`.
+- Run `sass` task if the changed file extension is `.scss` in the folder `paths.base` in `gulp/config.js`.
+- Run `html` task if the changed file extension is `.html` in the folder `paths.base` in `gulp/config.js`.
 
 ### Sass
 
@@ -90,3 +93,7 @@ If you use sass, this is for you, it get all the .scss files and compile using s
 In the `gulp/config.js` file is the sass config.
 
 The source files are in `paths.sass` in `gulp/config.js` and the destination folder is in `paths.styles` in `gulp/config/js`.
+
+### HTML
+
+This does not do much. Only reload the browser if a .html file has changed.
