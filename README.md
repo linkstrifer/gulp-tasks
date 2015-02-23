@@ -15,7 +15,10 @@ Just clone and run `npm install`.
 - [Browser-sync task](#browser-sync)
 - [Dev task](#dev)
 - [Sass task](#sass)
+- [Stylus task](#stylus)
 - [HTML task](#html)
+- [JS task](#js)
+- [JSHint task](#jshint)
 
 ### Default task
 
@@ -101,6 +104,12 @@ The source files are in `paths.sass` in `gulp/config.js` and the destination fol
 
 This does the same as `Sass task`, i use a `base.styl` to import a lot of `.styl` files and only compile `base.styl`, so my task do that, if you want you can change the task.
 
+## Config
+
+In the `gulp/config.js` file is the stylus config.
+
+The source files are in `paths.stylus` in `gulp/config.js` and the destination folder is in `paths.styles` in `gulp/config/js`.
+
 ### HTML
 
 This does not do much. Only reload the browser if a `.html` file has changed.
@@ -115,4 +124,4 @@ Here is the list:
 
 ### JSHint
 
-This task run JSHint on all the `.js` files, a tool that helps to detect errors and potential problems in your JavaScript code.
+This task run JSHint on all the `.js` files, a tool that helps to detect errors and potential problems in your JavaScript code. If you are not familiar with JSHint, check the website (jshint.com)[http://jshint.com/].
