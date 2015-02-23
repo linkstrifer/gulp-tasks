@@ -2,6 +2,7 @@
   "name": "gulp-tasks",
   "version": "0.0.0",
   "devDependencies": {
+    "browser-sync": "^2.2.1",
     "gulp": "^3.8.11",
     "gulp-load-plugins": "^0.8.0",
     "gulp-util": "^3.0.3",
