@@ -2,6 +2,7 @@ var config = {
 	paths: {
 		base: './site/',
 		sass: './site/static/sass/',
+		stylus: './site/static/stylus/',
 		styles: './site/static/css/'
 	},
 	server: {
@@ -25,6 +26,10 @@ var config = {
 	sass: {
 		// Array with all the folders with sass dependencies, like node_modules or bower
         includePaths: []
+    },
+    stylus: {
+		use: nib,
+		compress: true
     }
 };
 

@@ -82,7 +82,6 @@ Here is a list of the running tasks when you run dev:
 - [Browser-sync](#browser-sync)
 - [Sass](#sass)
 
-
 Then, watch some files and run an appropiate task:
 
 - Run `sass` task if the changed file extension is `.scss` in the folder `paths.base` in `gulp/config.js`.
@@ -98,9 +97,13 @@ In the `gulp/config.js` file is the sass config.
 
 The source files are in `paths.sass` in `gulp/config.js` and the destination folder is in `paths.styles` in `gulp/config/js`.
 
+### Stylus
+
+This does the same as `Sass task`, i use a `base.styl` to import a lot of `.styl` files and only compile `base.styl`, so my task do that, if you want you can change the task.
+
 ### HTML
 
-This does not do much. Only reload the browser if a .html file has changed.
+This does not do much. Only reload the browser if a `.html` file has changed.
 
 ### JS
 
