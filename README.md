@@ -55,6 +55,22 @@ And the magic happens. This would open localhost:3002 with the default browser.
 
 ### Dev
 
-This is the task that i use when i'm developing a site. Does a lot of work, here is the list of task:
+This is the task that i use when i'm developing a site.
+
+You can run this task alone or using autoreload-gulp.
+
+*If you only want to run once, type this in the console*
+
+	gulp dev
+
+*If you want to use autoreload-gulp, just type this*
+
+	gulp -t dev
+
+*Or*
+
+	gulp --task dev
+
+Here is a list of the running tasks when you run dev:
 
 - [Browser-sync](#browser-sync)
