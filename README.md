@@ -101,3 +101,15 @@ The source files are in `paths.sass` in `gulp/config.js` and the destination fol
 ### HTML
 
 This does not do much. Only reload the browser if a .html file has changed.
+
+### JS
+
+A task for the js files, basically is a group o task.
+
+Here is the list:
+
+- [JSHint](#jshint)
+
+### JSHint
+
+This task run JSHint on all the `.js` files, a tool that helps to detect errors and potential problems in your JavaScript code.
