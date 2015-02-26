@@ -28,8 +28,12 @@ var config = {
         includePaths: []
     },
     stylus: {
-		use: nib,
+		use: 'nib',
 		compress: true
+    },
+    unusedCss: {
+        globals: [],
+        ignore: []
     }
 };
 

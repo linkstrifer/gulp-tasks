@@ -125,3 +125,9 @@ Here is the list:
 ### JSHint
 
 This task runs JSHint on all the `.js` files, a tool that helps to detect errors and potential problems in your JavaScript code. If you are not familiar with JSHint, check the website [jshint.com](http://jshint.com/).
+
+## TODO list
+
+Add these tasks:
+
+- autoprefixer
