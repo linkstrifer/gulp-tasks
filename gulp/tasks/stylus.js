@@ -8,6 +8,6 @@ var nib = require('nib');
 gulp.task('stylus', function() {
 	return gulp.src(paths.stylus + 'base.styl')
 		.pipe(plugin.stylus(options))
-		.pipe(gulp.dest(paths.css))
+		.pipe(gulp.dest(paths.styles))
 		.pipe(browser.reload({stream: true}));
 });
