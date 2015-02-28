@@ -131,3 +131,4 @@ This task runs JSHint on all the `.js` files, a tool that helps to detect errors
 Add these tasks:
 
 - autoprefixer
+- sassdoc
