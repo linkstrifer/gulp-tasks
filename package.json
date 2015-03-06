@@ -1,5 +1,5 @@
 {
-  "name": "gulp-tasks",
+  "name": "gulp-tasks-collection",
   "version": "0.0.1",
   "devDependencies": {
     "browser-sync": "^2.2.1",
@@ -15,5 +15,39 @@
     "nib": "^1.1.0",
     "require-dir": "^0.1.0",
     "yargs": "^3.2.1"
-  }
+  },
+  "description": "This is a group of common gulp tasks that i use in my projects. If you have other tasks or know how to improve this, let me know.",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browser-sync": "^2.2.1",
+    "gulp": "^3.8.11",
+    "gulp-cssmin": "^0.1.6",
+    "gulp-jshint": "^1.9.2",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-sass": "^1.3.3",
+    "gulp-stylus": "^2.0.1",
+    "gulp-uncss": "^1.0.0",
+    "gulp-util": "^3.0.3",
+    "jshint-stylish": "^1.0.0",
+    "nib": "^1.1.0",
+    "require-dir": "^0.1.0",
+    "yargs": "^3.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linkstrifer/gulp-tasks.git"
+  },
+  "keywords": [
+    "gulp",
+    "tasks"
+  ],
+  "author": "LinkStrifer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linkstrifer/gulp-tasks/issues"
+  },
+  "homepage": "https://github.com/linkstrifer/gulp-tasks"
 }

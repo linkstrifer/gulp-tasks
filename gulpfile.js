@@ -1,3 +1,3 @@
-var requireDir = require('require-dir');
+var tasks = require('./index');
 
-requireDir('./gulp/tasks', { recurse: true });
+module.exports = tasks;
