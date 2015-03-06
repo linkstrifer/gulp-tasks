@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var paths = require('../config.js').paths;
+var paths = require('../../../gulp/config.js').paths;
 
 gulp.task('dev', [
 		'browser-sync:dev',
