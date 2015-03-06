@@ -14,6 +14,7 @@ Then create a `gulpfile.js` with this:
 
 and create a `gulp` folder with `config.js`:
 
+	var nib = require('nib');
 	var config = {
 		paths: {
 			base: './site/',
@@ -44,7 +45,7 @@ and create a `gulp` folder with `config.js`:
 	        includePaths: []
 	    },
 	    stylus: {
-			use: 'nib',
+			use: nib,
 			compress: true
 	    },
 	    unusedCss: {
