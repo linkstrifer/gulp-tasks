@@ -6,7 +6,54 @@ My twitter profile is [@LinkStrifer](https://twitter.com/LinkStrifer "Twitter")
 
 ## Installation
 
-Just clone and run `npm install`.
+Type `npm install gulp-tasks-collection`in the console
+
+Then create a `gulpfile.js` with this:
+
+	require('gulp-tasks-collection');
+
+and create a `gulp` folder with `config.js`:
+
+	var config = {
+		paths: {
+			base: './site/',
+			sass: './site/static/sass/',
+			stylus: './site/static/stylus/',
+			styles: './site/static/css/'
+		},
+		server: {
+			dev: {
+	            server: {
+	            	// Array with all the static folders to serve
+	                baseDir: [
+	                    './site/'
+	                ],
+	                // List with the url and folders to serve, like node_modules or bower folder
+	                // i.e: route /node_modules url to node_modules folder
+	                routes: {
+	                    '/node_modules': 'node_modules'
+	                }
+	            },
+	            port: 3002,
+	            logLevel: 'info', // Three options, debug, info or silent
+	            logFileChanges: true, // Log if a file change
+	        }
+		},
+		sass: {
+			// Array with all the folders with sass dependencies, like node_modules or bower
+	        includePaths: []
+	    },
+	    stylus: {
+			use: 'nib',
+			compress: true
+	    },
+	    unusedCss: {
+	        globals: [],
+	        ignore: []
+	    }
+	};
+
+	module.exports = config;
 
 ## Task list
 
