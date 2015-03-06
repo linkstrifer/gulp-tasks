@@ -1,6 +1,6 @@
 var gulp = require('gulp');
 var plugin = require('gulp-load-plugins')();
-var paths = require('../config.js').paths;
+var paths = require('../../../gulp/config.js').paths;
 
 gulp.task('jshint', function() {
     return gulp.src(paths.base)

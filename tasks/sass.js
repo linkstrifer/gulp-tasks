@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var plugin = require('gulp-load-plugins')();
-var paths = require('../config.js').paths;
-var options = require('../config.js').sass;
+var paths = require('../../../gulp/config.js').paths;
+var options = require('../../../gulp/config.js').sass;
 var browser = require('browser-sync');
 
 gulp.task('sass', function() {

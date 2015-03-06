@@ -1,6 +1,6 @@
 {
   "name": "gulp-tasks-collection",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "devDependencies": {
     "browser-sync": "^2.2.1",
     "gulp": "^3.8.11",
