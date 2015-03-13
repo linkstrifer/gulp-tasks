@@ -5,7 +5,7 @@ var spawn = require('child_process').spawn;
 gulp.task('autoreload-gulp', function() {
     var process;
 
-    gulp.watch(['gulpfile.js', 'gulp/**/*'], restart);
+    gulp.watch(['gulpfile.js', 'tasks/**/*'], restart);
     restart();
 
     function restart() {
