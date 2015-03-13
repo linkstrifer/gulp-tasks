@@ -1,9 +1,9 @@
-var gulp = require('gulp');
-var plugin = require('gulp-load-plugins')();
-var paths = require('../../../gulp/config.js').paths;
 var browser = require('browser-sync');
-var options = require('../../../gulp/config.js').stylus;
+var gulp = require('gulp');
 var nib = require('nib');
+var options = require('../config.js').stylus;
+var paths = require('../config.js').paths;
+var plugin = require('gulp-load-plugins')();
 
 gulp.task('stylus', function() {
 	return gulp.src(paths.stylus + 'base.styl')
