@@ -6,8 +6,8 @@ gulp.task('dev', [
 		'stylus',
 		'unused-css'
 	], function() {
-		gulp.watch(paths.base + '**/*.scss', ['sass']);
-		gulp.watch(paths.stylus + '**/*.styl', ['stylus', 'unused-css']);
 		gulp.watch(paths.base + '**/*.html', ['html']);
 		gulp.watch(paths.base + '**/*.js', ['js']);
+		gulp.watch(paths.base + '**/*.scss', ['sass']);
+		gulp.watch(paths.stylus + '**/*.styl', ['stylus', 'unused-css']);
 });
