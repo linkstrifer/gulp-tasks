@@ -1,7 +1,7 @@
 var gulp = require('gulp');
+var options = require('../config.js').unusedCss;
+var paths = require('../config.js').paths;
 var plugins = require('gulp-load-plugins')();
-var options = require('../../../gulp/config.js').unusedCss;
-var paths = require('../../../gulp/config.js').paths;
 
 gulp.task('unused-css', function() {
 	return gulp.src(paths.css + '**/*.css')

@@ -1,6 +1,6 @@
+var argv = require('yargs').argv;
 var gulp = require('gulp');
 var spawn = require('child_process').spawn;
-var argv = require('yargs').argv;
 
 gulp.task('autoreload-gulp', function() {
     var process;
