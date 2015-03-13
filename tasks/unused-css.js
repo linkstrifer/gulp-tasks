@@ -4,12 +4,12 @@ var paths = require('../config.js').paths;
 var plugins = require('gulp-load-plugins')();
 
 gulp.task('unused-css', function() {
-	return gulp.src(paths.css + '**/*.css')
+	return gulp.src(paths.styles + '**/*.css')
 		.pipe(plugins.uncss({
 			html: [
 				paths.base + '**/*.html'
 			]
 		}))
 		.pipe(plugins.cssmin())
-        .pipe(gulp.dest(paths.css));
+        .pipe(gulp.dest(paths.styles));
 });

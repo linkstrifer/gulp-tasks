@@ -1,13 +1,20 @@
 var gulp = require('gulp');
 var paths = require('../config.js').paths;
+var watch = require('gulp-watch');
 
 gulp.task('dev', [
-		'browser-sync:dev',
-		'stylus',
-		'unused-css'
+		'browser-sync:dev'
 	], function() {
-		gulp.watch(paths.base + '**/*.scss', ['sass']);
-		gulp.watch(paths.stylus + '**/*.styl', ['stylus', 'unused-css']);
-		gulp.watch(paths.base + '**/*.html', ['html']);
-		gulp.watch(paths.base + '**/*.js', ['js']);
+		watch(paths.base + '**/*.html', function() {
+			gulp.start('html');
+		});
+		watch(paths.scripts + '**/*.js', function() {
+			gulp.start('js');
+		});
+		watch(paths.sass + '**/*.scss', function() {
+			gulp.start('sass');
+		});
+		watch(paths.stylus + '**/*.styl', function() {
+			gulp.start('stylus');
+		});
 });
